@@ -1,7 +1,12 @@
-# Create a function that will raise a base number to a given power.
+# Prompts user to give base and exponent numbers
 
-def power(base, exponent):  # Add your parameters here!
+base = int(raw_input('Enter base number:'))
+exponent = int(raw_input('Enter exponent number:'))
+
+# Function that raises base by exponent and outputs result
+
+def power(base, exponent):
     result = base**exponent
     print "%d to the power of %d is %d." % (base, exponent, result)
 
-power(37,4)  # Add your arguments here!
+power(base,exponent) 
